@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         AppCenter.start(getApplication(), "0b87170b-b2dc-4070-9e29-f54086a84053", Analytics.class, Crashes.class);
+
+
     }
 
 
