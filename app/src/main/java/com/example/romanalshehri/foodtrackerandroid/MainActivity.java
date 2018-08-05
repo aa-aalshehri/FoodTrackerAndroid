@@ -7,6 +7,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 tv.setText(et.getText());
             }
         });
+
+        AppCenter.start(getApplication(), "0b87170b-b2dc-4070-9e29-f54086a84053", Analytics.class, Crashes.class);
     }
 
 
