@@ -19,14 +19,14 @@
             tools:layout_editor_absoluteY="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meal Name from v2" />
+            android:text="Meal Name from v3" />
 
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Enter meal name v2"
+            android:hint="Enter meal name v3"
             android:inputType="textPersonName"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="48dp" />
